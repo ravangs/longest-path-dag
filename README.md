@@ -40,7 +40,7 @@
 
   ![Result](./images/result.png)
 
-## Questions:
+## Questions
 
 ### 1. Does the solution work for larger graphs?
 - Yes, the solution works for larger graphs as I use topological sorting with dynamic programming to efficiently calculate the longest path. For graphs with long chains and fully connected graphs, there can be degradation in performance as the stack can get big, and distances must be updated for all the adjacent vertices.
@@ -59,7 +59,7 @@
 - The computation handles the usual edge cases of empty graphs and unconnected/isolated vertices.
 - The creation of graphs is currently a bit clunky and is difficult for large graphs. This could be improved by defining the edges and vertices in a file and then utilizing and parsing this file to initialize the graph.
 
-## Additional Questions:
+## Additional Questions
 
 ### 5. What are some things you don’t like about Java?
 - This question is hard to answer as I love working with Java.
@@ -73,6 +73,6 @@
 - Both these technologies are mature, have huge community support, and are open source.
 - Also, powerful development tools exist for these technologies.
 
-## Resources:
+## Resources
 
 I found this [Graph Theory Playlist](https://www.youtube.com/watch?v=DgXR2OWQnLc&list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P&ab_channel=WilliamFiset) helpful.
