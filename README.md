@@ -32,6 +32,13 @@
 
 ### `DagExample`:
 - This is a utility class with a static method to create a graph and find the longest path from a given vertex. This could also have been done through a test class.
+- Example graph used to test the implementation:
+
+  ![Graph](./images/graph.png)
+
+- Console output of the computation:
+
+  ![Result](./images/result.png)
 
 ## Questions:
 
