@@ -34,7 +34,7 @@ public class DagExample {
         System.out.println(graph);
 
         if (graph.isDAG()) {
-            int longestPathLength = graph.findLongestPathFromVertex(b);
+            int longestPathLength = graph.findLongestPathFromVertex(a);
             System.out.println("Longest path length:" + longestPathLength);
         } else {
             System.out.println("Given graph is not a DAG.");
