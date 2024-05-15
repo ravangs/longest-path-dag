@@ -21,7 +21,7 @@ public class GraphCore {
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
-        for (Vertex v : adjList.keySet()) {
+        adjList.keySet().forEach(v -> {
             builder.append(v).append(" -> ");
             List<Vertex> edges = getAdjVertices(v);
             if (edges.isEmpty()) {
@@ -32,7 +32,7 @@ public class GraphCore {
                         .collect(Collectors.joining(", ", "[", "]")));
             }
             builder.append(System.lineSeparator());
-        }
+        });
         return builder.toString();
     }
 }
